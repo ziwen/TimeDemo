@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YYPhotoCell : UICollectionViewCell
+@interface BnbPhotoCell : UICollectionViewCell
 
 - (void)setImage:(UIImage *)image;
 @end

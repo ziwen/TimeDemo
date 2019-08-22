@@ -18,7 +18,7 @@
 		9240ADC1230A692800DDF7F3 /* AirbnbNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9240ADC0230A692800DDF7F3 /* AirbnbNotificationCenter.m */; };
 		9258D7F8230B88B500CBE782 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D7F7230B88B500CBE782 /* CollectionViewController.m */; };
 		9258D7FC230B97C000CBE782 /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D7FB230B97C000CBE782 /* MyLayout.m */; };
-		9258D7FF230B9B2400CBE782 /* YYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D7FE230B9B2400CBE782 /* YYPhotoCell.m */; };
+		9258D7FF230B9B2400CBE782 /* BnbPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D7FE230B9B2400CBE782 /* BnbPhotoCell.m */; };
 		9258D802230BC0A100CBE782 /* BigAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D801230BC0A100CBE782 /* BigAreaViewController.m */; };
 		9258D806230BC26B00CBE782 /* BigAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D805230BC26B00CBE782 /* BigAreaButton.m */; };
 		9258D809230BCF9E00CBE782 /* HittestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D808230BCF9E00CBE782 /* HittestView.m */; };
@@ -30,6 +30,8 @@
 		9258D81D230D6E0700CBE782 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D81C230D6E0700CBE782 /* NSString+Path.m */; };
 		9258D820230D731000CBE782 /* SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D81F230D731000CBE782 /* SDWebImage.m */; };
 		9258D823230D7A3400CBE782 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D822230D7A3400CBE782 /* UIImageView+SDWebImage.m */; };
+		9258D826230EF8E300CBE782 /* BnbCollectionReusableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D825230EF8E300CBE782 /* BnbCollectionReusableHeader.m */; };
+		9258D829230EFBB800CBE782 /* BnbCollectionReusableFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D828230EFBB800CBE782 /* BnbCollectionReusableFooter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +74,8 @@
 		9258D7F7230B88B500CBE782 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		9258D7FA230B97C000CBE782 /* MyLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
 		9258D7FB230B97C000CBE782 /* MyLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
-		9258D7FD230B9B2400CBE782 /* YYPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPhotoCell.h; sourceTree = "<group>"; };
-		9258D7FE230B9B2400CBE782 /* YYPhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPhotoCell.m; sourceTree = "<group>"; };
+		9258D7FD230B9B2400CBE782 /* BnbPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbPhotoCell.h; sourceTree = "<group>"; };
+		9258D7FE230B9B2400CBE782 /* BnbPhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbPhotoCell.m; sourceTree = "<group>"; };
 		9258D800230BC0A100CBE782 /* BigAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigAreaViewController.h; sourceTree = "<group>"; };
 		9258D801230BC0A100CBE782 /* BigAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigAreaViewController.m; sourceTree = "<group>"; };
 		9258D804230BC26B00CBE782 /* BigAreaButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigAreaButton.h; sourceTree = "<group>"; };
@@ -96,6 +98,10 @@
 		9258D81F230D731000CBE782 /* SDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImage.m; sourceTree = "<group>"; };
 		9258D821230D7A3400CBE782 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
 		9258D822230D7A3400CBE782 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		9258D824230EF8E300CBE782 /* BnbCollectionReusableHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbCollectionReusableHeader.h; sourceTree = "<group>"; };
+		9258D825230EF8E300CBE782 /* BnbCollectionReusableHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbCollectionReusableHeader.m; sourceTree = "<group>"; };
+		9258D827230EFBB800CBE782 /* BnbCollectionReusableFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbCollectionReusableFooter.h; sourceTree = "<group>"; };
+		9258D828230EFBB800CBE782 /* BnbCollectionReusableFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbCollectionReusableFooter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,10 +202,14 @@
 			children = (
 				9258D7F6230B88B500CBE782 /* CollectionViewController.h */,
 				9258D7F7230B88B500CBE782 /* CollectionViewController.m */,
+				9258D824230EF8E300CBE782 /* BnbCollectionReusableHeader.h */,
+				9258D825230EF8E300CBE782 /* BnbCollectionReusableHeader.m */,
+				9258D827230EFBB800CBE782 /* BnbCollectionReusableFooter.h */,
+				9258D828230EFBB800CBE782 /* BnbCollectionReusableFooter.m */,
 				9258D7FA230B97C000CBE782 /* MyLayout.h */,
 				9258D7FB230B97C000CBE782 /* MyLayout.m */,
-				9258D7FD230B9B2400CBE782 /* YYPhotoCell.h */,
-				9258D7FE230B9B2400CBE782 /* YYPhotoCell.m */,
+				9258D7FD230B9B2400CBE782 /* BnbPhotoCell.h */,
+				9258D7FE230B9B2400CBE782 /* BnbPhotoCell.m */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -381,9 +391,11 @@
 				9258D819230D6AC000CBE782 /* BnbDownLoadOperation.m in Sources */,
 				9258D802230BC0A100CBE782 /* BigAreaViewController.m in Sources */,
 				9258D7F8230B88B500CBE782 /* CollectionViewController.m in Sources */,
+				9258D826230EF8E300CBE782 /* BnbCollectionReusableHeader.m in Sources */,
 				9258D81D230D6E0700CBE782 /* NSString+Path.m in Sources */,
-				9258D7FF230B9B2400CBE782 /* YYPhotoCell.m in Sources */,
+				9258D7FF230B9B2400CBE782 /* BnbPhotoCell.m in Sources */,
 				9258D80C230C16CF00CBE782 /* BaseCell.m in Sources */,
+				9258D829230EFBB800CBE782 /* BnbCollectionReusableFooter.m in Sources */,
 				9258D815230C49FD00CBE782 /* SelfTableViewController.m in Sources */,
 				9258D80F230C184700CBE782 /* DataItem.m in Sources */,
 				9240ADC1230A692800DDF7F3 /* AirbnbNotificationCenter.m in Sources */,
