@@ -62,7 +62,7 @@
         [_dataSource addObject:@"给 button 扩大点击区域，判断点击的view，遮挡什么的都可以。ok "];
         [_dataSource addObject:@"做个 view，盖住一个 button，然后点击这个 view, 下面的 button 可以响应。"];
         [_dataSource addObject:@"做个 button，是的点击这个 button 上下左右，都可以响应，扩大范围。"];
-        [_dataSource addObject:@"做个 view，点击这个 view 拖动他，拖动到某个位置，删除这个 view"];
+        [_dataSource addObject:@"做个 view，点击这个 view 拖动他，拖动到某个位置，删除这个view"];
         [_dataSource addObject:@"你给 tableview 价格 foot and header，里面都有 label，都是高度自适应的。"];
         [_dataSource addObject:@"做个 collectionView，可以支持点击里面的 cell 排序。"];
         [_dataSource addObject:@"做个 collectionView，自定义一下瀑布流显示。"];
