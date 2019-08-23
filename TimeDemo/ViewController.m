@@ -10,12 +10,16 @@
 #import "ViewController.h"
 #import "CollectionViewController.h"
 #import "BigAreaViewController.h"
+#import "NSString+Height.h"
 @interface ViewController ()
 <UITableViewDelegate, UITableViewDataSource>
 {
     NSTimer *_timer;
 }
 @property (nonatomic, strong)NSMutableArray *dataSource;
+
+@property (nonatomic, assign)BOOL loading;
+@property (nonatomic, assign)BOOL hasMore;
 @end
 
 @implementation ViewController
@@ -93,6 +97,8 @@
     [self setupTableView];
     self.view.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:self.tableview];
+    _hasMore = YES;
+    _loading = NO;
 }
 
 #pragma - UITableViewDelegate -
@@ -122,6 +128,14 @@
     {
         scrollView.contentInset = UIEdgeInsetsMake(-sectionHeaderHeight, 0, 0, 0);
     }
+    
+    
+    // 向上滑动到最下面了
+     //   if (isLoading || !hasMore) return;
+        if(scrollView.contentSize.height - (scrollView.contentOffset.y + scrollView.bounds.size.height - scrollView.contentInset.bottom) <= 0 && scrollView.contentOffset.y > 0){
+           // [self loadMore];
+            NSLog(@"-----");
+        }
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -140,14 +154,10 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    NSString *text = @"自适应文本header高度，自适应文本高度，自适应文本高度，自适应文本高度，自适应文本高度，111";
+    NSString *text = @"自适应文本header高度，自适应文本高度，自适应文本高度，自适应文本高度，自适应文本高度，111111";
     NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
     [style setLineBreakMode:NSLineBreakByCharWrapping];
-    CGSize size = [text boundingRectWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, MAXFLOAT)
-                                     options:NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin
-                                  attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18], NSParagraphStyleAttributeName : style}
-                                     context:nil].size;
-    return size.height;
+   return [text heightForSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, MAXFLOAT)                                     options:NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18], NSParagraphStyleAttributeName : style}];
 }
 //
 //-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
@@ -160,8 +170,8 @@
     UILabel *headerLabel = [[UILabel alloc] init];
     headerLabel.numberOfLines = 0;
     headerLabel.backgroundColor = [UIColor grayColor];
-    headerLabel.font = [UIFont systemFontOfSize:20];
-    headerLabel.text = @"自适应文本header高度，自适应文本高度，自适应文本高度，自适应文本高度，自适应文本高度，111";
+    headerLabel.font = [UIFont systemFontOfSize:18];
+    headerLabel.text = @"自适应文本header高度，自适应文本高度，自适应文本高度，自适应文本高度，自适应文本高度，111111";
     return headerLabel;
 }
 
@@ -192,8 +202,35 @@
     cell.textLabel.text = self.dataSource[indexPath.row];
     cell.textLabel.font = [UIFont systemFontOfSize:18];
     cell.textLabel.numberOfLines = 0;
+   
+    if(indexPath.row+3 == self.dataSource.count-1 &&
+       _loading == NO &&
+       _hasMore == YES) {
+      
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            [self addMore];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.tableview reloadData];
+            });
+        });
+    }
 }
 
+- (void)addMore{
+    _loading = YES;
+    
+    if (self.dataSource.count >= 200) {
+        _hasMore = false;
+        return;
+    }
+    
+    for (int i =0; i< 20; i++) {
+        [self.dataSource addObject:self.dataSource[i]];
+    }
+    
+    _loading = false;
+    
+}
 #pragma - UITableViewDataSource -
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

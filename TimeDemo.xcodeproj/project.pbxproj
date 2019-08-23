@@ -32,6 +32,7 @@
 		9258D823230D7A3400CBE782 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D822230D7A3400CBE782 /* UIImageView+SDWebImage.m */; };
 		9258D826230EF8E300CBE782 /* BnbCollectionReusableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D825230EF8E300CBE782 /* BnbCollectionReusableHeader.m */; };
 		9258D829230EFBB800CBE782 /* BnbCollectionReusableFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D828230EFBB800CBE782 /* BnbCollectionReusableFooter.m */; };
+		9258D82C230F81D500CBE782 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D82B230F81D500CBE782 /* NSString+Height.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		9258D825230EF8E300CBE782 /* BnbCollectionReusableHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbCollectionReusableHeader.m; sourceTree = "<group>"; };
 		9258D827230EFBB800CBE782 /* BnbCollectionReusableFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbCollectionReusableFooter.h; sourceTree = "<group>"; };
 		9258D828230EFBB800CBE782 /* BnbCollectionReusableFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbCollectionReusableFooter.m; sourceTree = "<group>"; };
+		9258D82A230F81D500CBE782 /* NSString+Height.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Height.h"; sourceTree = "<group>"; };
+		9258D82B230F81D500CBE782 /* NSString+Height.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Height.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +248,8 @@
 				9258D81C230D6E0700CBE782 /* NSString+Path.m */,
 				9258D821230D7A3400CBE782 /* UIImageView+SDWebImage.h */,
 				9258D822230D7A3400CBE782 /* UIImageView+SDWebImage.m */,
+				9258D82A230F81D500CBE782 /* NSString+Height.h */,
+				9258D82B230F81D500CBE782 /* NSString+Height.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -393,6 +398,7 @@
 				9258D7F8230B88B500CBE782 /* CollectionViewController.m in Sources */,
 				9258D826230EF8E300CBE782 /* BnbCollectionReusableHeader.m in Sources */,
 				9258D81D230D6E0700CBE782 /* NSString+Path.m in Sources */,
+				9258D82C230F81D500CBE782 /* NSString+Height.m in Sources */,
 				9258D7FF230B9B2400CBE782 /* BnbPhotoCell.m in Sources */,
 				9258D80C230C16CF00CBE782 /* BaseCell.m in Sources */,
 				9258D829230EFBB800CBE782 /* BnbCollectionReusableFooter.m in Sources */,
