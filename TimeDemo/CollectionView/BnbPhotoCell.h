@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class DataItem;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BnbPhotoCell : UICollectionViewCell
 
 - (void)setImage:(UIImage *)image;
+
+- (void)setDataItem:(DataItem *)item;
 @end
 
 NS_ASSUME_NONNULL_END

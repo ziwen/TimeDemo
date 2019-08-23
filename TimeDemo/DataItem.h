@@ -14,8 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger type;
 
-@property (nonatomic, strong) NSString *imageUrl;
-@property (nonatomic, strong) NSString *text;
+@property (nonatomic, copy) NSString *imageUrl;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *position;
 
 - (void)getImage:(void(^)(UIImage *))image;
 - (void)downLoadImageFromString:(NSString *)imageUrl image:(void(^)(UIImage *))imageBlock;

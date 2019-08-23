@@ -128,4 +128,12 @@
 //        });
 //    }];
 }
+
+- (void)setDataItem:(DataItem *)item
+{
+    [_imageView sd_imageWithURL:item.imageUrl];
+    _nameLabel.text = item.name;
+    _positionLabel.text = item.position;
+}
+
 @end
