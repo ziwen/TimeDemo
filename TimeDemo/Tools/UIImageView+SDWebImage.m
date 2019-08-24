@@ -10,7 +10,6 @@
 #import "UIImageView+SDWebImage.h"
 #import "SDWebImage.h"
 
-
 @implementation UIImageView (SDWebImage)
 - (void)sd_imageWithURL:(NSString *)url
 {
@@ -18,7 +17,5 @@
         self.image = image;
     }];
 }
-
-
 
 @end

@@ -11,6 +11,7 @@
 #import "CollectionViewController.h"
 #import "BigAreaViewController.h"
 #import "NSString+Height.h"
+#import "BnbMainViewController.h"
 @interface ViewController ()
 <UITableViewDelegate, UITableViewDataSource>
 {
@@ -64,6 +65,7 @@
         [_dataSource addObject:@"加 footer，加 header 高度总是不对不显示。"];
         [_dataSource addObject:@"collectionView, ok"];
         [_dataSource addObject:@"给 button 扩大点击区域，判断点击的view，遮挡什么的都可以。ok "];
+        [_dataSource addObject:@"tableView"];
         [_dataSource addObject:@"做个 view，盖住一个 button，然后点击这个 view, 下面的 button 可以响应。"];
         [_dataSource addObject:@"做个 button，是的点击这个 button 上下左右，都可以响应，扩大范围。"];
         [_dataSource addObject:@"做个 view，点击这个 view 拖动他，拖动到某个位置，删除这个view"];
@@ -114,6 +116,11 @@
         UIViewController *vc = [[BigAreaViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
+    else if(indexPath.row == 4)
+    {
+        UIViewController *vc = [[BnbMainViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -128,8 +135,6 @@
     {
         scrollView.contentInset = UIEdgeInsetsMake(-sectionHeaderHeight, 0, 0, 0);
     }
-    
-    
     // 向上滑动到最下面了
      //   if (isLoading || !hasMore) return;
         if(scrollView.contentSize.height - (scrollView.contentOffset.y + scrollView.bounds.size.height - scrollView.contentInset.bottom) <= 0 && scrollView.contentOffset.y > 0){

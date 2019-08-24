@@ -14,7 +14,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)sd_imageWithURL:(NSString *)url;
 
-
 @end
 
 NS_ASSUME_NONNULL_END

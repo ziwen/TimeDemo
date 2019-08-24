@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setImage:(UIImage *)image;
 
 - (void)setDataItem:(DataItem *)item;
+
++ (CGFloat)heightForItem:(DataItem *)item;
 @end
 
 NS_ASSUME_NONNULL_END

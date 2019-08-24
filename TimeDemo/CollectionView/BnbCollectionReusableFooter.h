@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BnbCollectionReusableFooter : UICollectionReusableView
 
++ (CGFloat)heightForFooterWithData:(NSString *)footer;
 @end
 
 NS_ASSUME_NONNULL_END

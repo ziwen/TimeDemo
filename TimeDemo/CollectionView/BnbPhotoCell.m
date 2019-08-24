@@ -136,4 +136,10 @@
     _positionLabel.text = item.position;
 }
 
+
++ (CGFloat)heightForItem:(DataItem *)item
+{
+    return 130;
+}
+
 @end

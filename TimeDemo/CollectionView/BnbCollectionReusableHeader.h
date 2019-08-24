@@ -7,10 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class HeaderItem;
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol BnbCollectionReusableHeaderDelegate <NSObject>
+
+@optional
+
+- (void)didClickHeader:(HeaderItem *)headerItem;
+
+@end
 @interface BnbCollectionReusableHeader : UICollectionReusableView
+
+@property (nonatomic, weak) id<BnbCollectionReusableHeaderDelegate> delegate;
+
+- (void)setHeaderData:(HeaderItem *)headerItem;
+
++ (CGFloat)heightForHeaderWithData:(HeaderItem *)headerItem;
 
 @end
 

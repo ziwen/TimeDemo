@@ -1,20 +1,23 @@
 //
-//  SelfTableViewController.m
+//  BnbMainViewController.m
 //  TimeDemo
 //
 //  Created by ziwen on 2019/8/20.
 //  Copyright © 2019年 larlark.com. All rights reserved.
 //
 
-#import "SelfTableViewController.h"
+#import "BnbMainViewController.h"
 
-@interface SelfTableViewController ()
+@interface BnbMainViewController ()<UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, strong)NSMutableArray *dataSource;
+@property (nonatomic, strong)UITableView *tableView;
 @end
 
-@implementation SelfTableViewController
+@implementation BnbMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 
 

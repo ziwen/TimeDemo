@@ -25,7 +25,7 @@
 		9258D80C230C16CF00CBE782 /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D80B230C16CF00CBE782 /* BaseCell.m */; };
 		9258D80F230C184700CBE782 /* DataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D80E230C184700CBE782 /* DataItem.m */; };
 		9258D812230C19EA00CBE782 /* AirbnbImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D811230C19EA00CBE782 /* AirbnbImageCell.m */; };
-		9258D815230C49FD00CBE782 /* SelfTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D814230C49FD00CBE782 /* SelfTableViewController.m */; };
+		9258D815230C49FD00CBE782 /* BnbMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D814230C49FD00CBE782 /* BnbMainViewController.m */; };
 		9258D819230D6AC000CBE782 /* BnbDownLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D818230D6AC000CBE782 /* BnbDownLoadOperation.m */; };
 		9258D81D230D6E0700CBE782 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D81C230D6E0700CBE782 /* NSString+Path.m */; };
 		9258D820230D731000CBE782 /* SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D81F230D731000CBE782 /* SDWebImage.m */; };
@@ -33,6 +33,8 @@
 		9258D826230EF8E300CBE782 /* BnbCollectionReusableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D825230EF8E300CBE782 /* BnbCollectionReusableHeader.m */; };
 		9258D829230EFBB800CBE782 /* BnbCollectionReusableFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D828230EFBB800CBE782 /* BnbCollectionReusableFooter.m */; };
 		9258D82C230F81D500CBE782 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D82B230F81D500CBE782 /* NSString+Height.m */; };
+		9258D82F230FE40500CBE782 /* BnbScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D82E230FE40500CBE782 /* BnbScrollViewCell.m */; };
+		9258D832230FE58000CBE782 /* HeaderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D831230FE58000CBE782 /* HeaderItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,8 +91,8 @@
 		9258D80E230C184700CBE782 /* DataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataItem.m; sourceTree = "<group>"; };
 		9258D810230C19EA00CBE782 /* AirbnbImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirbnbImageCell.h; sourceTree = "<group>"; };
 		9258D811230C19EA00CBE782 /* AirbnbImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirbnbImageCell.m; sourceTree = "<group>"; };
-		9258D813230C49FD00CBE782 /* SelfTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfTableViewController.h; sourceTree = "<group>"; };
-		9258D814230C49FD00CBE782 /* SelfTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfTableViewController.m; sourceTree = "<group>"; };
+		9258D813230C49FD00CBE782 /* BnbMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbMainViewController.h; sourceTree = "<group>"; };
+		9258D814230C49FD00CBE782 /* BnbMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbMainViewController.m; sourceTree = "<group>"; };
 		9258D817230D6AC000CBE782 /* BnbDownLoadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbDownLoadOperation.h; sourceTree = "<group>"; };
 		9258D818230D6AC000CBE782 /* BnbDownLoadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbDownLoadOperation.m; sourceTree = "<group>"; };
 		9258D81B230D6E0700CBE782 /* NSString+Path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
@@ -105,6 +107,10 @@
 		9258D828230EFBB800CBE782 /* BnbCollectionReusableFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbCollectionReusableFooter.m; sourceTree = "<group>"; };
 		9258D82A230F81D500CBE782 /* NSString+Height.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Height.h"; sourceTree = "<group>"; };
 		9258D82B230F81D500CBE782 /* NSString+Height.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Height.m"; sourceTree = "<group>"; };
+		9258D82D230FE40500CBE782 /* BnbScrollViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbScrollViewCell.h; sourceTree = "<group>"; };
+		9258D82E230FE40500CBE782 /* BnbScrollViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbScrollViewCell.m; sourceTree = "<group>"; };
+		9258D830230FE58000CBE782 /* HeaderItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderItem.h; sourceTree = "<group>"; };
+		9258D831230FE58000CBE782 /* HeaderItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,7 @@
 		9240AD8C230677E200DDF7F3 /* TimeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9258D8332311500200CBE782 /* tableView */,
 				9258D81A230D6DE400CBE782 /* Tools */,
 				9258D816230D6A8300CBE782 /* SDWebImage */,
 				9258D803230BC1C900CBE782 /* BigAreaView */,
@@ -170,14 +177,14 @@
 				9240AD98230677E400DDF7F3 /* LaunchScreen.storyboard */,
 				9240AD9B230677E400DDF7F3 /* Info.plist */,
 				9240AD9C230677E400DDF7F3 /* main.m */,
+				9258D830230FE58000CBE782 /* HeaderItem.h */,
+				9258D831230FE58000CBE782 /* HeaderItem.m */,
 				9258D80D230C184700CBE782 /* DataItem.h */,
 				9258D80E230C184700CBE782 /* DataItem.m */,
 				9258D80A230C16CF00CBE782 /* BaseCell.h */,
 				9258D80B230C16CF00CBE782 /* BaseCell.m */,
 				9258D810230C19EA00CBE782 /* AirbnbImageCell.h */,
 				9258D811230C19EA00CBE782 /* AirbnbImageCell.m */,
-				9258D813230C49FD00CBE782 /* SelfTableViewController.h */,
-				9258D814230C49FD00CBE782 /* SelfTableViewController.m */,
 			);
 			path = TimeDemo;
 			sourceTree = "<group>";
@@ -205,6 +212,8 @@
 			children = (
 				9258D7F6230B88B500CBE782 /* CollectionViewController.h */,
 				9258D7F7230B88B500CBE782 /* CollectionViewController.m */,
+				9258D82D230FE40500CBE782 /* BnbScrollViewCell.h */,
+				9258D82E230FE40500CBE782 /* BnbScrollViewCell.m */,
 				9258D824230EF8E300CBE782 /* BnbCollectionReusableHeader.h */,
 				9258D825230EF8E300CBE782 /* BnbCollectionReusableHeader.m */,
 				9258D827230EFBB800CBE782 /* BnbCollectionReusableFooter.h */,
@@ -252,6 +261,15 @@
 				9258D82B230F81D500CBE782 /* NSString+Height.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		9258D8332311500200CBE782 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				9258D813230C49FD00CBE782 /* BnbMainViewController.h */,
+				9258D814230C49FD00CBE782 /* BnbMainViewController.m */,
+			);
+			path = tableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,11 +416,13 @@
 				9258D7F8230B88B500CBE782 /* CollectionViewController.m in Sources */,
 				9258D826230EF8E300CBE782 /* BnbCollectionReusableHeader.m in Sources */,
 				9258D81D230D6E0700CBE782 /* NSString+Path.m in Sources */,
+				9258D82F230FE40500CBE782 /* BnbScrollViewCell.m in Sources */,
 				9258D82C230F81D500CBE782 /* NSString+Height.m in Sources */,
+				9258D832230FE58000CBE782 /* HeaderItem.m in Sources */,
 				9258D7FF230B9B2400CBE782 /* BnbPhotoCell.m in Sources */,
 				9258D80C230C16CF00CBE782 /* BaseCell.m in Sources */,
 				9258D829230EFBB800CBE782 /* BnbCollectionReusableFooter.m in Sources */,
-				9258D815230C49FD00CBE782 /* SelfTableViewController.m in Sources */,
+				9258D815230C49FD00CBE782 /* BnbMainViewController.m in Sources */,
 				9258D80F230C184700CBE782 /* DataItem.m in Sources */,
 				9240ADC1230A692800DDF7F3 /* AirbnbNotificationCenter.m in Sources */,
 			);

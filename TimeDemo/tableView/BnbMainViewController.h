@@ -1,5 +1,5 @@
 //
-//  SelfTableViewController.h
+//  BnbMainViewController.h
 //  TimeDemo
 //
 //  Created by ziwen on 2019/8/20.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SelfTableViewController : UITableViewController
+@interface BnbMainViewController : UIViewController
 
 @end
 
