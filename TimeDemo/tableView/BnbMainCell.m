@@ -7,11 +7,12 @@
 //
 
 #import "BnbMainCell.h"
-#import "BnbViewItem.h"
+#import "BnbMainView.h"
 
 @interface BnbMainCell ()
 
 @property (nonatomic, strong)NSMutableArray *viewContains;
+
 @end
 
 @implementation BnbMainCell
@@ -51,7 +52,7 @@
     {
         //add
         for (NSInteger i = _viewContains.count; i < items.count; i++) {
-            BnbViewItem *view = [[BnbViewItem alloc] initWithFrame:CGRectMake(0,
+            BnbMainView *view = [[BnbMainView alloc] initWithFrame:CGRectMake(0,
                                                                              0, ([UIScreen mainScreen].bounds.size.width-50)/2.0,
                                                                               130)];
             view.backgroundColor = [UIColor yellowColor];
@@ -61,7 +62,7 @@
     }
 
     for (int i = 0; i < items.count; i++) {
-        BnbViewItem *view = (BnbViewItem *)self.viewContains[i];
+        BnbMainView *view = (BnbMainView *)self.viewContains[i];
         NSInteger left = i%2 == 0 ? 20 : [UIScreen mainScreen].bounds.size.width/2.0 + 5;
         view.frame = CGRectMake(left,
                                 i/2 * 135.0,

@@ -40,6 +40,7 @@
 		9258D83C231232FC00CBE782 /* BnbMainScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D83B231232FC00CBE782 /* BnbMainScrollViewCell.m */; };
 		9258D83F231233C400CBE782 /* BnbViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D83E231233C400CBE782 /* BnbViewItem.m */; };
 		9258D84223123B3500CBE782 /* BnbMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D84123123B3500CBE782 /* BnbMainCell.m */; };
+		9258D8452312468500CBE782 /* BnbMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D8442312468500CBE782 /* BnbMainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,8 @@
 		9258D83E231233C400CBE782 /* BnbViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbViewItem.m; sourceTree = "<group>"; };
 		9258D84023123B3500CBE782 /* BnbMainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbMainCell.h; sourceTree = "<group>"; };
 		9258D84123123B3500CBE782 /* BnbMainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbMainCell.m; sourceTree = "<group>"; };
+		9258D8432312468500CBE782 /* BnbMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbMainView.h; sourceTree = "<group>"; };
+		9258D8442312468500CBE782 /* BnbMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbMainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +296,8 @@
 				9258D83B231232FC00CBE782 /* BnbMainScrollViewCell.m */,
 				9258D84023123B3500CBE782 /* BnbMainCell.h */,
 				9258D84123123B3500CBE782 /* BnbMainCell.m */,
+				9258D8432312468500CBE782 /* BnbMainView.h */,
+				9258D8442312468500CBE782 /* BnbMainView.m */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -453,6 +458,7 @@
 				9258D8362312214E00CBE782 /* BnbHeaderView.m in Sources */,
 				9258D829230EFBB800CBE782 /* BnbCollectionReusableFooter.m in Sources */,
 				9258D815230C49FD00CBE782 /* BnbMainViewController.m in Sources */,
+				9258D8452312468500CBE782 /* BnbMainView.m in Sources */,
 				9258D80F230C184700CBE782 /* DataItem.m in Sources */,
 				9240ADC1230A692800DDF7F3 /* AirbnbNotificationCenter.m in Sources */,
 			);
