@@ -99,7 +99,9 @@
             finish(image);
             // 下载完成之后也要移除操作
             [self.operationCache removeObjectForKey:url];
-            [self.memCache setObject:image forKey:url];
+            if (image) {
+                [self.memCache setObject:image forKey:url];
+            }
         }];
         // 把操作添加到队列
         [self.queue addOperation:op];

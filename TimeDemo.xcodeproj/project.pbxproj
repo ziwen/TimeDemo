@@ -35,6 +35,11 @@
 		9258D82C230F81D500CBE782 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D82B230F81D500CBE782 /* NSString+Height.m */; };
 		9258D82F230FE40500CBE782 /* BnbScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D82E230FE40500CBE782 /* BnbScrollViewCell.m */; };
 		9258D832230FE58000CBE782 /* HeaderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D831230FE58000CBE782 /* HeaderItem.m */; };
+		9258D8362312214E00CBE782 /* BnbHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D8352312214E00CBE782 /* BnbHeaderView.m */; };
+		9258D839231221B800CBE782 /* BnbFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D838231221B800CBE782 /* BnbFooterView.m */; };
+		9258D83C231232FC00CBE782 /* BnbMainScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D83B231232FC00CBE782 /* BnbMainScrollViewCell.m */; };
+		9258D83F231233C400CBE782 /* BnbViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D83E231233C400CBE782 /* BnbViewItem.m */; };
+		9258D84223123B3500CBE782 /* BnbMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258D84123123B3500CBE782 /* BnbMainCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +116,16 @@
 		9258D82E230FE40500CBE782 /* BnbScrollViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbScrollViewCell.m; sourceTree = "<group>"; };
 		9258D830230FE58000CBE782 /* HeaderItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderItem.h; sourceTree = "<group>"; };
 		9258D831230FE58000CBE782 /* HeaderItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderItem.m; sourceTree = "<group>"; };
+		9258D8342312214E00CBE782 /* BnbHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbHeaderView.h; sourceTree = "<group>"; };
+		9258D8352312214E00CBE782 /* BnbHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbHeaderView.m; sourceTree = "<group>"; };
+		9258D837231221B800CBE782 /* BnbFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbFooterView.h; sourceTree = "<group>"; };
+		9258D838231221B800CBE782 /* BnbFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbFooterView.m; sourceTree = "<group>"; };
+		9258D83A231232FC00CBE782 /* BnbMainScrollViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbMainScrollViewCell.h; sourceTree = "<group>"; };
+		9258D83B231232FC00CBE782 /* BnbMainScrollViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbMainScrollViewCell.m; sourceTree = "<group>"; };
+		9258D83D231233C400CBE782 /* BnbViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbViewItem.h; sourceTree = "<group>"; };
+		9258D83E231233C400CBE782 /* BnbViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbViewItem.m; sourceTree = "<group>"; };
+		9258D84023123B3500CBE782 /* BnbMainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BnbMainCell.h; sourceTree = "<group>"; };
+		9258D84123123B3500CBE782 /* BnbMainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnbMainCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +237,8 @@
 				9258D7FB230B97C000CBE782 /* MyLayout.m */,
 				9258D7FD230B9B2400CBE782 /* BnbPhotoCell.h */,
 				9258D7FE230B9B2400CBE782 /* BnbPhotoCell.m */,
+				9258D83D231233C400CBE782 /* BnbViewItem.h */,
+				9258D83E231233C400CBE782 /* BnbViewItem.m */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -266,8 +283,16 @@
 		9258D8332311500200CBE782 /* tableView */ = {
 			isa = PBXGroup;
 			children = (
+				9258D8342312214E00CBE782 /* BnbHeaderView.h */,
+				9258D8352312214E00CBE782 /* BnbHeaderView.m */,
+				9258D837231221B800CBE782 /* BnbFooterView.h */,
+				9258D838231221B800CBE782 /* BnbFooterView.m */,
 				9258D813230C49FD00CBE782 /* BnbMainViewController.h */,
 				9258D814230C49FD00CBE782 /* BnbMainViewController.m */,
+				9258D83A231232FC00CBE782 /* BnbMainScrollViewCell.h */,
+				9258D83B231232FC00CBE782 /* BnbMainScrollViewCell.m */,
+				9258D84023123B3500CBE782 /* BnbMainCell.h */,
+				9258D84123123B3500CBE782 /* BnbMainCell.m */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -403,7 +428,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9258D809230BCF9E00CBE782 /* HittestView.m in Sources */,
+				9258D83F231233C400CBE782 /* BnbViewItem.m in Sources */,
 				9258D812230C19EA00CBE782 /* AirbnbImageCell.m in Sources */,
+				9258D84223123B3500CBE782 /* BnbMainCell.m in Sources */,
 				9240AD92230677E200DDF7F3 /* ViewController.m in Sources */,
 				9258D7FC230B97C000CBE782 /* MyLayout.m in Sources */,
 				9258D820230D731000CBE782 /* SDWebImage.m in Sources */,
@@ -415,12 +442,15 @@
 				9258D802230BC0A100CBE782 /* BigAreaViewController.m in Sources */,
 				9258D7F8230B88B500CBE782 /* CollectionViewController.m in Sources */,
 				9258D826230EF8E300CBE782 /* BnbCollectionReusableHeader.m in Sources */,
+				9258D83C231232FC00CBE782 /* BnbMainScrollViewCell.m in Sources */,
+				9258D839231221B800CBE782 /* BnbFooterView.m in Sources */,
 				9258D81D230D6E0700CBE782 /* NSString+Path.m in Sources */,
 				9258D82F230FE40500CBE782 /* BnbScrollViewCell.m in Sources */,
 				9258D82C230F81D500CBE782 /* NSString+Height.m in Sources */,
 				9258D832230FE58000CBE782 /* HeaderItem.m in Sources */,
 				9258D7FF230B9B2400CBE782 /* BnbPhotoCell.m in Sources */,
 				9258D80C230C16CF00CBE782 /* BaseCell.m in Sources */,
+				9258D8362312214E00CBE782 /* BnbHeaderView.m in Sources */,
 				9258D829230EFBB800CBE782 /* BnbCollectionReusableFooter.m in Sources */,
 				9258D815230C49FD00CBE782 /* BnbMainViewController.m in Sources */,
 				9258D80F230C184700CBE782 /* DataItem.m in Sources */,

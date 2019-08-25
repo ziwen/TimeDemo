@@ -53,7 +53,7 @@
     
    // tableView.estimatedSectionFooterHeight= 0;
     //remove sepactorStyle
-    //tableView.separatorStyle = UITableViewCellSeparatorStyleNone;//推荐该方法
+    tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;//推荐该方法
     _tableview = tableView;
 }
 
@@ -199,6 +199,7 @@
     }
     //cell.textLabel.text = self.dataSource[indexPath.row];
     //cell.textLabel.backgroundColor = [UIColor redColor];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
