@@ -59,7 +59,7 @@
                                                                               0,
                                                                               [UIScreen mainScreen].bounds.size.width/2.0 - 30,
                                                                               130)];
-            view.backgroundColor = [UIColor yellowColor];
+//            view.backgroundColor = [UIColor yellowColor];
             view.userInteractionEnabled = YES;
             [_viewContains addObject:view];
         }

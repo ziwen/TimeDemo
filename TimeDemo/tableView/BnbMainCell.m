@@ -55,7 +55,7 @@
             BnbMainView *view = [[BnbMainView alloc] initWithFrame:CGRectMake(0,
                                                                              0, ([UIScreen mainScreen].bounds.size.width-50)/2.0,
                                                                               130)];
-            view.backgroundColor = [UIColor yellowColor];
+//            view.backgroundColor = [UIColor yellowColor];
             view.userInteractionEnabled = YES;
             [_viewContains addObject:view];
         }

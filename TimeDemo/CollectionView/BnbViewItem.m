@@ -41,7 +41,7 @@
         _positionLbl = [[UILabel alloc] init];
         _positionLbl.font = [UIFont systemFontOfSize:10];
         _positionLbl.frame = CGRectMake(0, 100,self.bounds.size.width, 12);
-        _positionLbl.backgroundColor = [UIColor redColor];
+//        _positionLbl.backgroundColor = [UIColor redColor];
         _positionLbl.text = @"酒店房间-北京";
     }
     return _positionLbl;

@@ -35,7 +35,7 @@ static NSString *const kFooterId = @"footerId";
 {
     [super viewDidLoad];
     self.navigationItem.title = @"MainPageDemo";
-    self.view.backgroundColor = [UIColor yellowColor];
+//    self.view.backgroundColor = [UIColor yellowColor];
     //data init
     [self dataSource];
     [self addItems];

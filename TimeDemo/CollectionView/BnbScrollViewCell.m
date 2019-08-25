@@ -131,7 +131,7 @@
         //add
         for (NSInteger i = _viewContains.count; i < items.count; i++) {
             BnbViewItem *view = [[BnbViewItem alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width/2.0 - 30, 130)];
-            view.backgroundColor = [UIColor yellowColor];
+//            view.backgroundColor = [UIColor yellowColor];
             view.userInteractionEnabled = YES;
             [_viewContains addObject:view];
         }

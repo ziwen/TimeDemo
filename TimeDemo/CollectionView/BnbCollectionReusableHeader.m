@@ -36,7 +36,7 @@
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.font = [UIFont systemFontOfSize:20];
         _titleLabel.frame = CGRectMake(0, 0, self.bounds.size.width, 23);
-        _titleLabel.backgroundColor = [UIColor orangeColor];
+//        _titleLabel.backgroundColor = [UIColor orangeColor];
         _titleLabel.text = @"秋季特惠房源";
     }
     return _titleLabel;
@@ -48,7 +48,7 @@
         _subtitleLabel = [[UILabel alloc] init];
         _subtitleLabel.font = [UIFont systemFontOfSize:14];
         _subtitleLabel.frame = CGRectMake(0, 23, self.bounds.size.width, 17);
-        _subtitleLabel.backgroundColor = [UIColor yellowColor];
+//        _subtitleLabel.backgroundColor = [UIColor yellowColor];
         _subtitleLabel.text = @"低至8折，可叠加使用礼券";
     }
     return _subtitleLabel;
