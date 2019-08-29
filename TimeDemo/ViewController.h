@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 
-@property (nonatomic, strong)UITableView *tableview;
+@property (nonatomic, strong)UITableView *tableView;
 
 @end
 
